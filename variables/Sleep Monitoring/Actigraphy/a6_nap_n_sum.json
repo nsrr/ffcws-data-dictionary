@@ -1,0 +1,10 @@
+{
+  "id": "a6_nap_n_sum",
+  "display_name": "Total number of naps across all valid days from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "number of event",
+  "labels": [
+    "TtlNumNp_ib_wr_f2"
+  ]
+}

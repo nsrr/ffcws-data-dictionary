@@ -1,0 +1,18 @@
+[
+  {
+    "value": "0 No",
+    "display_name": "No naps",
+    "description": ""
+  },
+  {
+    "value": "1 Yes",
+    "display_name": "Has at least 1 nap",
+    "description": ""
+  },
+  {
+    "value": "-9 Not in wave",
+    "display_name": "Not in wave",
+    "description": "",
+    "missing": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "id": "a6_dailytst_mins_wknd_mn",
+  "display_name": "Average daily sleep duration over 24-hour periods on weekends from actigraphy ",
+  "description": "Sleep duration: the interval between sleep onset and sleep offset while the participant is asleep",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "AvgDurSp_ib_w2_f2"
+  ]
+}

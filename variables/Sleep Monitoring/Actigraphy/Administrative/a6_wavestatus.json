@@ -1,0 +1,7 @@
+{
+  "id": "a6_wavestatus",
+  "display_name": "Missing value status of participants",
+  "description": "",
+  "type": "choices",
+  "domain": "actmissing"
+}

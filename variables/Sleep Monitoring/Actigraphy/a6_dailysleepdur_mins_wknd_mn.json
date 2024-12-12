@@ -1,0 +1,10 @@
+{
+  "id": "a6_dailysleepdur_mins_wknd_mn",
+  "display_name": "Average daily sleep period over 24-hour periods on weekends from actigraphy ",
+  "description": "Sleep period is the interval between sleep onset and sleep offset time.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "AvgPrdSp_ib_w2_f2"
+  ]
+}

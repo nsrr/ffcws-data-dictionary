@@ -1,0 +1,8 @@
+{
+  "id": "ck6ethrace",
+  "display_name": "Participant's race",
+  "description": "",
+  "type": "choices",
+  "domain": "race9",
+  "commonly_used": true
+}

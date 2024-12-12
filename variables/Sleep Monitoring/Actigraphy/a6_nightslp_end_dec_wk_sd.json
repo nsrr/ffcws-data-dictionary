@@ -1,0 +1,10 @@
+{
+  "id": "a6_nightslp_end_dec_wk_sd",
+  "display_name": "Standard deviation of daily sleep onset (decimal time) in main sleep on weekdays from actigraphy ",
+  "description": "",
+  "type": "numeric",
+  "units": "hours",
+  "labels": [
+    "StdEptSp_im_w5_f2"
+  ]
+}

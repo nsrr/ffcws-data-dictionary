@@ -1,0 +1,7 @@
+{
+  "id": "a6_napper",
+  "display_name": "Actigraphic Nap Flag (has at least 1 nap)",
+  "description": "Indicates whether a participant had at least one nap calculated across the valid days in their sleep actigraphy. This variable is missing for any participants who do not have actigraphy data (2<=a6_wavestatus<=7).",
+  "type": "choices",
+  "domain": "napper"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "a6_nightsleepdur_mins_wk_mn",
+  "display_name": "Average daily sleep period in main sleep on weekdays from actigraphy ",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "AvgPrdSp_im_w5_f2"
+  ]
+}

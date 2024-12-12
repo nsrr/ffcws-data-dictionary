@@ -1,0 +1,10 @@
+{
+  "id": "a6_dailytst_mins_sd",
+  "display_name": "Standard deviation of daily sleep duration over 24-hour periods among all days from actigraphy ",
+  "description": "Sleep duration: the interval between sleep onset and sleep offset while the participant is asleep",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "StdDurSp_ib_w7_f2"
+  ]
+}

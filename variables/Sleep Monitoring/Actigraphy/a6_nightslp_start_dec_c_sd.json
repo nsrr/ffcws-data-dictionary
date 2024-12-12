@@ -1,0 +1,10 @@
+{
+  "id": "a6_nightslp_start_dec_c_sd",
+  "display_name": "Standard deviation of daily sleep onset (midnight-centered decimal time) in main sleep among all days from actigraphy ",
+  "description": "The time \"0.00\" indicates midnight/12:00AM, \"-1.20\" indicates 10:48PM (or 1.2 hours before midnight), and \"2.45\" indicates 2:27AM (or 2.45 hours after midnight). ",
+  "type": "numeric",
+  "units": "hours",
+  "labels": [
+    "StdBptSp_im_w7_f2"
+  ]
+}

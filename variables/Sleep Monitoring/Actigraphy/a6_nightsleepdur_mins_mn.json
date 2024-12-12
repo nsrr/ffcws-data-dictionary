@@ -1,0 +1,10 @@
+{
+  "id": "a6_nightsleepdur_mins_mn",
+  "display_name": "Average daily sleep period (includes WASO) in main sleep among all days from actigraphy ",
+  "description": "Sleep period is the interval between sleep onset and sleep offset time.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "AvgPrdSp_im_w7_f2"
+  ]
+}

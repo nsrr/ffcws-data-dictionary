@@ -1,0 +1,51 @@
+[
+  {
+    "value": "2",
+    "display_name": "Black/Af. American only, non-hispanic",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Hispanic/Latino",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "White only, non-hispanic",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Multi-racial, non-hispanic",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Other only, non-hispanic",
+    "description": ""
+  },
+  {
+    "value": "-9",
+    "display_name": "Not in wave",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-3",
+    "display_name": "Missing",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-2",
+    "display_name": "Don't know",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-1",
+    "display_name": "Refuse",
+    "description": "",
+    "missing": true
+  }
+]

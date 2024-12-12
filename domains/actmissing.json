@@ -1,0 +1,37 @@
+[
+  {
+    "value": "1 Non-missing; provided at least 1 valid day of actigraphy",
+    "display_name": "Non-missing; provided at least 1 valid day of actigraphy",
+    "description": ""
+  },
+  {
+    "value": "2 Provided no valid days of actigraphy",
+    "display_name": "Provided no valid days of actigraphy",
+    "description": ""
+  },
+  {
+    "value": "3 Technical error or device lost",
+    "display_name": "Technical error or device lost ",
+    "description": ""
+  },
+  {
+    "value": "4 Participated in Y15HV but did not consent/assent to actigraphy study",
+    "display_name": "Participated in Year 15 Home Visit but did not consent/assent to actigraphy study",
+    "description": ""
+  },
+  {
+    "value": "5 Randomly sampled for Y15HV but did not participate",
+    "display_name": "Randomly sampled for Year 15 Home Visit but did not participate",
+    "description": ""
+  },
+  {
+    "value": "6 Not randomly sampled for Y15HV",
+    "display_name": "Not randomly sampled for Year 15 Home Visit",
+    "description": ""
+  },
+  {
+    "value": "7 Not in Y15 wave/core",
+    "display_name": "Not in Year 15 wave/core ",
+    "description": ""
+  }
+]

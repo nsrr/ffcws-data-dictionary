@@ -1,0 +1,8 @@
+{
+  "id": "timepoint",
+  "display_name": "FFCWS Visit timepoint",
+  "description": "",
+  "type": "choices",
+  "domain": "timepoint",
+  "commonly_used": true
+}

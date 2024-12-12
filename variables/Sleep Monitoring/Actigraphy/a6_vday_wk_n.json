@@ -1,0 +1,10 @@
+{
+  "id": "a6_vday_wk_n",
+  "display_name": "Total number of valid weekdays from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "days",
+  "labels": [
+    "TtlNumDy_ib_w5_f2"
+  ]
+}

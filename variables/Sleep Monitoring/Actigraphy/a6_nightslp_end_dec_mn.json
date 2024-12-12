@@ -1,0 +1,10 @@
+{
+  "id": "a6_nightslp_end_dec_mn",
+  "display_name": "Average daily sleep offset (decimal time) in main sleep among all days from actigraphy ",
+  "description": "",
+  "type": "numeric",
+  "units": "hours",
+  "labels": [
+    "AvgEptSp_im_w7_f2"
+  ]
+}

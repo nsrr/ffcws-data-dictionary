@@ -1,0 +1,10 @@
+{
+  "id": "a6_dailysleepdur_mins_sd",
+  "display_name": "Standard deviation of daily sleep period over 24-hour periods among all days from actigraphy ",
+  "description": "Sleep period is the interval between sleep onset and sleep offset time.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "StdPrdSp_ib_w7_f2"
+  ]
+}

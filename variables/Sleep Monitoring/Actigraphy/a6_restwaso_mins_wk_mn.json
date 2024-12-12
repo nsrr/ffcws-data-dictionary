@@ -1,0 +1,10 @@
+{
+  "id": "a6_restwaso_mins_wk_mn",
+  "display_name": "Average daily wake duration after sleep onset (WASO) in main sleep on weekdays from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "AvgDurWk_im_w5_f2"
+  ]
+}
