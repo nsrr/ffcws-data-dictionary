@@ -3,5 +3,6 @@
   "display_name": "Participant's age",
   "description": "",
   "type": "numeric",
+  "units": "months",
   "commonly_used": true
 }
