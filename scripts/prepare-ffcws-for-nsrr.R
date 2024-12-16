@@ -6,7 +6,7 @@ library(foreign)
 
 data <- read.csv("/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_source/ffcws_yr15_demo_20240806.csv")
 data$timepoint <-1
-data<-data%>%mutate(ck6yagem = ifelse(ck6yagem == "-9", '', ck6yagem))
+data<-data%>%mutate(ck6yagem = ifelse(ck6yagem == "-9", '', ck6yagem),ck6yagem = as.numeric(ck6yagem))
 write.csv(data,file = "/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_releases/0.1.0.pre/ffcws-demo-dataset-0.1.0.pre.csv", row.names = FALSE, na='')
 
 
