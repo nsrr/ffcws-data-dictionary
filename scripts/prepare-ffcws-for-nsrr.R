@@ -7,7 +7,7 @@ library(foreign)
 data <- read.csv("/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_source/ffcws_yr15_demo_20240806.csv")
 data$timepoint <-1
 data<-data%>%mutate(ck6yagem = ifelse(ck6yagem == "-9", '', ck6yagem),ck6yagem = as.numeric(ck6yagem))
-write.csv(data,file = "/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_releases/0.1.0.pre/ffcws-demo-dataset-0.1.0.pre.csv", row.names = FALSE, na='')
+#write.csv(data,file = "/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_releases/0.1.0.pre/ffcws-demo-dataset-0.1.0.pre.csv", row.names = FALSE, na='')
 
 
 harmonized_data <- data[, c("idnum", "timepoint", "ck6yagem", "cm1bsex", "ck6ethrace")] %>% 
@@ -39,5 +39,10 @@ write.csv(harmonized_data,file = "/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-bu
 
 act_data <- read.csv("/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_source/FFCWS_y15_personlevel_sleepactigraphy/ACT_wave62024v2.csv")
 act_data$timepoint <-1
-write.csv(act_data,file = "/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_releases/0.1.0.pre/ffcws-actigraphy-dataset-0.1.0.pre.csv", row.names = FALSE, na='')
+
+merged_data <- merge(act_data, data, 
+                   by = c("idnum", "timepoint"), 
+                   all = TRUE)
+
+write.csv(merged_data,file = "/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_releases/0.1.0.pre/ffcws-dataset-0.1.0.pre.csv", row.names = FALSE, na='')
 
