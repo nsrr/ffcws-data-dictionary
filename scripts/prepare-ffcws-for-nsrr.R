@@ -34,7 +34,7 @@ harmonized_data <- data[, c("idnum", "timepoint", "ck6yagem", "cm1bsex", "ck6eth
   select(nsrrid, timepoint, nsrr_age, nsrr_sex, nsrr_race)
 
 
-write.csv(harmonized_data,file = "/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_releases/0.1.0.pre/ffcws-harmonized-dataset-0.1.0.pre.csv", row.names = FALSE, na='')
+write.csv(harmonized_data,file = "/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_releases/0.1.0/ffcws-harmonized-dataset-0.1.0.csv", row.names = FALSE, na='')
 
 
 act_data <- read.csv("/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_source/FFCWS_y15_personlevel_sleepactigraphy/ACT_wave62024v2.csv")
@@ -44,5 +44,4 @@ merged_data <- merge(act_data, data,
                    by = c("idnum", "timepoint"), 
                    all = TRUE)
 
-write.csv(merged_data,file = "/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_releases/0.1.0.pre/ffcws-dataset-0.1.0.pre.csv", row.names = FALSE, na='')
-
+write.csv(merged_data,file = "/Volumes/BWH-SLEEPEPI-NSRR-STAGING/20240206-buxton-future-families/nsrr-prep/_releases/0.1.0/ffcws-dataset-0.1.0.csv", row.names = FALSE, na='')
